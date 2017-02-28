@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{35C2AF4D-070F-45B5-903B-90E261CB470E}"
+	ProjectSection(SolutionItems) = preProject
+		Snippets\Factory.snippet = Snippets\Factory.snippet
+		Snippets\LICENSE = Snippets\LICENSE
+		Snippets\q-promise.snippet = Snippets\q-promise.snippet
+		Snippets\README.md = Snippets\README.md
+		Snippets\Service.snippet = Snippets\Service.snippet
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
