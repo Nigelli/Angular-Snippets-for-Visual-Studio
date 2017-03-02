@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Angular state</Title>
+			<Author>Myself</Author>
+			<Description>Angular state for use with the state provider</Description>
+			<Shortcut>ngstate</Shortcut>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Replace with the states name.</ToolTip>
+					<Default>name</Default>
+				</Literal>
+				<Literal>
+					<ID>url</ID>
+					<ToolTip>Replace with the urlto display.</ToolTip>
+					<Default>/default/route/url</Default>
+				</Literal>
+				<Literal>
+					<ID>template</ID>
+					<ToolTip>Replace with the url for the template.</ToolTip>
+					<Default>/route/to/the/view.html</Default>
+				</Literal>
+				<Literal>
+					<ID>controller</ID>
+					<ToolTip>Replace with the controller name.</ToolTip>
+					<Default>controllerName</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="javascript">
+				<![CDATA[
+				.state({
+					name: '$name$',
+					url: '$/default/route/url$',
+					templateUrl: '$/route/to/the/view.html$',
+					controller: '$controllerName$ as vm'
+				})
+				]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
